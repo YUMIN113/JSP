@@ -1,14 +1,14 @@
 package book;
 
 public class Book {
-
+	
 	private String category;
 	private String title;
 	private String writers;
 	private String publish;
-	private int price;
+	private String price;
 	
-	public Book(String category, String title, String writers, String publish, int price) {
+	public Book(String category, String title, String writers, String publish, String price) {
 		this.category = category;
 		this.title = title;
 		this.writers = writers;
@@ -48,11 +48,11 @@ public class Book {
 		this.publish = publish;
 	}
 
-	public int getPrice() {
+	public String getPrice() {
 		return price;
 	}
 
-	public void setPrice(int price) {
+	public void setPrice(String price) {
 		this.price = price;
 	}
 
