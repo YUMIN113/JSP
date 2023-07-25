@@ -17,3 +17,8 @@ tr, td {
 #attribute {
 	background-color: lightslategray;
 }
+
+#link {
+  text-decoration: none;
+  color: black;
+}
