@@ -14,7 +14,7 @@
 </head>
 <body>
 <form action="result.jsp" method="post">
-아이디 : <input type="text" maxlength="20" name="id" value=" " required><br>
+아이디 : <input type="text" maxlength="20" name="id" value="<%=id%>" required><br>
 패스워드 : <input type="password" maxlength="20" name="password" required><br>
 <input type="checkbox" name="idSave" value="true">&nbsp;아이디 저장<br>
 <input type="submit" value="로그인">

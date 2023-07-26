@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="book.Book" %>
+<%@ page import="bookList.Book" %>
 <%
 	Book book = new Book("만화", "열혈강호", "전국진,양재현", "대원씨아이", 4500);
 %>
